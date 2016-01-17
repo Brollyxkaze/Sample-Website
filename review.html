@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smooth Srax| Reviews</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,900,300' rel='stylesheet' type='text/css'>
+<script src="js/js.js"></script>
+<script> 
+
+window.onload = function() {
+  if(checkLogged())
+	  {
+	  	document.getElementById("log").style.opacity = "0" ;
+	  	document.getElementById("loggedIn").style.opacity = "1" ;
+
+	  }
+  else 
+  	document.getElementById("loggedIn").style.opacity = "0" ;
+}
+
+</script>
+
+</head>
+
+<body>
+
+<!-- HOMEPAGE --> 
+<div class="header">
+	<div class="icons">
+		<a  href="http://www.google.com" target="_blank"><i onmouseover="icon(this);" onmouseout="iconout(this);"  class="fa fa-google-plus fa-2x"></i></a>
+		<a  href="http://www.facebook.com" target="_blank"><i onmouseover="icon(this);" onmouseout="iconout(this);"class="fa fa-facebook fa-2x"></i></a>
+		<a href="http://www.twitter.com" target="_blank"><i onmouseover="icon(this);" onmouseout="iconout(this);" class="fa fa-twitter fa-2x"></i></a>
+	</div>
+		<h2>Smooth <br/> Srax</h2>
+		<div id="log" class="login">
+		<form onsubmit="return checkForm(this)">
+			<input type="text" name="user" placeholder="Username/E-mail" required>
+			<input type="password" name="pass" placeholder="Enter your password" required>
+		<input type="submit" value="Login">
+		</form>
+		</div>
+		<div id ="loggedIn"class="logged">
+		<p>You are Logged in as:  <b> Mahmoud </b> </p>
+		<p id="signout" onclick="signout()"> Sign Out</p>
+		</div>
+	<div class="nav">
+		<ul>
+			<li><a href="index.html" >Home</a></li>
+			<li><a href="#">Forums</a></li>
+			<li><a href="review.html"  class="focus">Reviews</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+</div>
+
+
+<!-- REVIEW-SECTION -->
+
+<div class="review">
+	<h1>
+		Reviews
+	</h1>
+
+<div class="rev1">
+	<div class="pic-1">
+	<div class="card-container">
+  <div class="card">
+    <div class="side"></div>
+    <div class="side back">Another Pic</div>
+  </div>
+</div>
+	</div>
+
+	<p class="p1-rev">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+	<progress max="100" value="80" class="prog1"></progress>
+	<p class="sp1">80 out of 100</p>
+</div>
+<hr/>
+
+
+<div class="rev2">
+	<div class="pic-2">
+	<div class="card-container">
+  <div class="card">
+    <div class="side"></div>
+    <div class="side back">Another Pic</div>
+  </div>
+</div>
+	</div>
+
+	<p class="p2-rev">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+	<progress max="100" value="50" class="prog2"></progress>
+	<p class="sp2">50 out of 100</p>
+</div>
+<hr/>
+
+
+<div class="rev3">
+	<div class="pic-3">
+	<div class="card-container">
+  <div class="card">
+    <div class="side"></div>
+    <div class="side back">Another Pic</div>
+  </div>
+</div>
+	</div>
+
+	<p class="p3-rev">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+	<progress max="100" value="65" class="prog3"></progress>
+	<p class="sp3">65 out of 100</p>
+</div>
+<hr/>
+
+<div class="rev4">
+	<div class="pic-4">
+	<div class="card-container">
+  <div class="card">
+    <div class="side"></div>
+    <div class="side back">Another Pic</div>
+  </div>
+</div>
+	</div>
+
+	<p class="p4-rev">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+	<progress max="100" value="20" class="prog4"></progress>
+	<p class="sp4">20 out of 100</p>
+</div>
+
+
+<div class="numbers">
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>.....</li>
+		<li>14</li>
+		<li>NEXT</li>
+	</ul>
+</div>
+
+
+<div class="input">
+	<textarea rows="10">Please share your Opinion with us , so that we can find &amp; fix bugs that you encounter.</textarea>
+	<input type="submit" value="Post" class="post">
+	<form class="rdbtn">
+	<input type="radio" name="rating" value="1" class="rd"/>1
+	<input type="radio" name="rating" value="2" class="rd"/>2
+	<input type="radio" name="rating" value="3" class="rd"/>3
+	<input type="radio" name="rating" value="4" class="rd"/>4
+	<input type="radio" name="rating" value="5" class="rd"/>5
+	</form>
+</div>
+
+</div>
+<!-- END REVIEW SECTION -->
+
+
+
+
+<!-- FOOTER-->
+
+<div class="footer">
+			<form class="subscribe" onsubmit="return ValEmail()" name="form1">
+				<input id="sub" type="text" name="email" placeholder="ENTER YOUR E-MAIL ADDRESS" />
+				<input type="submit" value="Subscribe"/>
+			</form>
+			<hr/>
+			<ul>
+				<li><a href="#">LogIn</a></li>
+				<li><a href="about.html">about</a></li>
+				<li><a href="contact.html">contact </a></li>
+				<li><a href="index.html">features </a></li>
+				<li><a href="review.html">reviews</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Terms&amp;conditions</a></li>
+				<li><a href="#">privacy&amp;cookies</a></li>
+				<li><a href="signup.html">SignUp</a></li>
+			</ul>
+			<div class="para">
+			<p>© 2015 Smooth corp.</p><br/>
+			<p>Project for Web programming course</p>
+			<p>Mahmoud Elsayad &amp; Zeyad Shehata</p>
+</div>
+</div>
+
+<!-- FOOTER END -->
+
+
+</body>
+</html>
